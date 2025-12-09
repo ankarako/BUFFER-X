@@ -17,5 +17,7 @@ module = Extension(
 )
 
 setup(
+    name="grid_subsampling",
+    version="1.0.0",
     ext_modules=[module],
 )

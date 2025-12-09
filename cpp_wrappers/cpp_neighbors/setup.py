@@ -23,5 +23,7 @@ module = Extension(
 )
 
 setup(
+    name="radius_neighbors",
+    version="1.0.0",
     ext_modules=[module],
 )
